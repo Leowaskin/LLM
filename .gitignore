@@ -1,0 +1,17 @@
+# Ignore the virtual environment (huge & unnecessary)
+venv/
+env/
+.env
+
+# Ignore massive model weights & checkpoints
+*.pt
+*.pth
+*.bin
+*.safetensors
+faq_model/
+results/
+
+# Ignore cache files
+__pycache__/
+*.pyc
+.DS_Store
